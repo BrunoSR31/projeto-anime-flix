@@ -1,0 +1,76 @@
+@media screen and (max-width: 700px) {
+  header .container {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .botao {
+    margin-top: 5px;
+    width: 300px;
+    height: 60px;
+
+  }
+
+  header nav a{
+    font-size: 20px;
+  }
+}
+
+@media screen and (min-width: 1000px) {
+  
+  .descricao{
+    width: 50%;
+  }
+
+}
+
+@media screen and (max-width: 500px) {
+  .container{
+    height: 1000px;
+  }
+  
+  header nav a{
+    font-size: 10px;
+  }
+
+  .anime-principal .container .titulo{
+    font-size: 20px;
+  }
+  .descricao{
+    height: 30%;
+    
+  }
+
+  .anime-principal .container .botoes {
+    display: flex;
+    height: 30%;
+    margin-top: 10px;
+    position: relative;
+    top: 30%;
+    align-items:center;
+    flex-direction : column;
+    width: 100%;
+    
+  
+  }
+}
+
+@media screen and (min-width: 700px) and (max-width:1000px) {
+  header .container {
+    display: flex;
+    flex-direction: column;
+  }
+}
+  @media screen and (max-width: 500px) {
+    
+  .anime-principal .container {
+      display: flex;
+      flex-direction: column;
+      
+    }
+
+    .anime-principal .container .descricao{
+      font-size: 12px;
+    }
+  }
+  
